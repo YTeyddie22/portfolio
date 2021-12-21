@@ -28,13 +28,14 @@ body {
 	font-weight: 300;
 	color: #444;
 	line-height: 1.9;
-	background-color: #f3f3f3;
+
 	font-size: 1.6rem;
 }
 
 .container {
-	height: 100vh;
+	height: 100%;
 	width: 100%;
+	background-image: var(--gradient-primary);
 
 	padding: 3rem;
 	display: grid;
@@ -50,10 +51,9 @@ body {
 .navigation {
 	height: 100%;
 	width: 100%;
-	background-color: #ccc;
 
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 }
 .navigation ul {
@@ -72,12 +72,85 @@ body {
 .navigation ul li {
 	list-style: none;
 	margin: 0 4rem;
+	border-bottom: 1px solid white;
+
+	padding: 0.5rem;
 }
 
 .navigation ul li a {
 	text-decoration: none;
 	color: #444;
-	transition: all 0.3s ease-in-out;
+
 	font-size: 1.4rem;
-	font-weight: 300;
+	font-weight: 200;
+}
+
+.header__title {
+	display: grid;
+	grid-template-columns: 3fr 3fr;
+	row-gap: 2rem;
+
+	justify-items: center;
+	align-items: center;
+	padding-left: 7rem;
+}
+.centered-text {
+	display: flex;
+	justify-content: end;
+	align-items: end;
+}
+.highlight {
+	position: relative;
+}
+
+.highlight::after {
+	display: block;
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	opacity: 0.7;
+	transform: scale(1.07, 1.05) skewX(-15deg);
+	background-image: var(--gradient-primary);
+}
+
+.btn--text {
+	display: inline-block;
+	background: none;
+	font-size: 1.7rem;
+	font-family: inherit;
+	font-weight: 500;
+	color: black;
+	border: none;
+	border-bottom: 1px solid white;
+	padding-bottom: 2px;
+	cursor: pointer;
+	transition: all 0.3s;
+	border-radius: 10rem;
+	padding: 1.5rem;
+}
+
+.introduction {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.intro_image img {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	width: 60%;
+	object-fit: contain;
+	height: auto;
+	border-radius: 10rem;
+	box-shadow: 15px 12px 23px 3px rgba(0, 0, 0, 0.58);
+	-webkit-box-shadow: 15px 12px 23px 3px rgba(0, 0, 0, 0.58);
+	-moz-box-shadow: 15px 12px 23px 3px rgba(0, 0, 0, 0.58);
 }
