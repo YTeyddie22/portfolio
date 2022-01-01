@@ -276,28 +276,63 @@ body {
 }
 
 #projects {
-	height: 100%;
+	height: 50vh;
 	width: 100%;
 	display: flex;
+	text-align: center;
 
 	justify-content: center;
 	align-items: center;
 }
 
 #footer {
-	height: 100%;
+	height: 50vh;
 	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: #444;
+	padding: 3rem;
+
+	opacity: 0.6;
+
 	color: #fff;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 200;
 	line-height: 1.3;
 	letter-spacing: 0.2rem;
-	border-radius: 7rem;
-	box-shadow: 15px 12px 23px 3px rgba(0, 0, 0, 0.58);
-	-webkit-box-shadow: 15px 12px 23px 3px rgba(0, 0, 0, 0.58);
-	-moz-box-shadow: 15px 12px 23px 3px rgba(0, 0, 0, 0.58);
+}
+
+.footer__header {
+	height: 20vh;
+	width: 100%;
+	display: flex;
+
+	justify-content: space-around;
+	align-items: center;
+}
+.footer__header img {
+	width: 10rem;
+	height: 10rem;
+	object-fit: contain;
+	border-radius: 50%;
+}
+.footer__contact {
+	height: 30vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer__contact__icons ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	list-style: none;
+	margin-top: 2rem;
+}
+.footer__contact__icons ul li {
+	margin-left: 4rem;
+}
+.footer__contact__icons ul li a {
+	font-size: 3.5rem;
 }
