@@ -51,7 +51,8 @@ body::-webkit-scrollbar {
 		font-weight: 300;
 		color: #444;
 		line-height: 1.9;
-		position: absolute;
+		position: relative;
+		overflow-x: hidden;
 
 		font-size: 1.6rem;
 		-ms-overflow-style: none; /* for Internet Explorer, Edge */
@@ -80,7 +81,7 @@ body::-webkit-scrollbar {
 
 	#header {
 		height: 100vh;
-		width: 100%;
+
 		display: flex;
 		flex-direction: column;
 		justify-content: start;
@@ -88,9 +89,9 @@ body::-webkit-scrollbar {
 	}
 
 	.name {
-		width: 100vw;
+		min-width: 100vw;
 		display: flex;
-		padding-right: 3rem;
+		padding-right: 6rem;
 		justify-content: space-between;
 		align-items: center;
 	}
