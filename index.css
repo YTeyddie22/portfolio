@@ -170,7 +170,16 @@ Responsive for tablet and higher
 	.navigation ul li {
 		list-style: none;
 		margin: 0 4rem;
+
+		padding: 0.5rem;
+	}
+	.navigation ul li:hover {
+		list-style: none;
+		margin: 0 4rem;
+
+		transition: all 1s;
 		border-bottom: 1px solid white;
+		transform: translateX(1rem);
 
 		padding: 0.5rem;
 	}
