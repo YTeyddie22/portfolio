@@ -17,6 +17,8 @@ const navSlider = function () {
 				}s`;
 			}
 		});
+
+		burger.classList.toggle('menu');
 	});
 };
 

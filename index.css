@@ -54,6 +54,16 @@ body {
 	transform: translateX(0);
 }
 
+.menu .line1 {
+	transform: rotate(-45deg) translate(-5px, 6px);
+}
+.menu .line2 {
+	opacity: 0;
+}
+.menu .line3 {
+	transform: rotate(45deg) translate(-5px, -6px);
+}
+
 @media screen and (max-width: 640px) {
 	.nav__links li {
 		opacity: 0;
@@ -62,11 +72,11 @@ body {
 
 @keyframes navLinksMovement {
 	from {
-		transform: translateX(100);
+		transform: translateX(50px);
 		opacity: 0;
 	}
 	to {
-		transform: translateX(0);
+		transform: translateX(0px);
 		opacity: 1;
 	}
 }
