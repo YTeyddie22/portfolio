@@ -10,6 +10,7 @@
 		<link rel="stylesheet" href="index.css" />
 
 		<script defer src="https://cdn.tailwindcss.com"></script>
+		<script defer src="index.js"></script>
 
 		<link
 			rel="stylesheet"
@@ -19,22 +20,24 @@
 			referrerpolicy="no-referrer"
 		/>
 	</head>
-	<body class="font-mono bg-slate-200">
+	<body
+		class="font-mono bg-slate-200 sm:w-screen sm:h-full sm:p-0 sm-right-0 sm:left:0"
+	>
 		<header class="header w-screen h-screen">
 			<nav
-				class="navigation w-screen h-36 flex justify-around items-center tracking-wider bg-green-500 text-zinc-100"
+				class="navigation w-full h-36 flex justify-around items-center tracking-wider bg-green-500 text-zinc-100"
 			>
 				<div class="logo uppercase text-6xl">Teddy Yongo</div>
 
 				<ul
-					class="nav__links absolute right-0 top-36 h-4/6 bg-green-400 w-1/2 flex justify-around flex-col items-center sm:relative sm:top-0 sm:flex sm:justify-around sm:bg-green-500 sm:items-center"
+					class="nav__links absolute right-0 top-36 h-4/6 bg-green-400 w-1/2 flex justify-around flex-col items-center translate-x-full text-3xl uppercase underlined transition-transform duration-75 ease-in sm:translate-x-0 sm:relative sm:top-0 sm:flex sm:flex-row sm:justify-around sm:bg-green-500 sm:items-center"
 				>
 					<li><a href="#header">Home</a></li>
 					<li><a href="#about">About</a></li>
 					<li><a href="#Projects">Projects</a></li>
 					<li><a href="#Contacts">Contacts</a></li>
 				</ul>
-				<div class="burger block sm:hidden">
+				<div class="burger cursor-pointer block sm:hidden">
 					<div class="line1 bg-green-200 w-10 h-1 mb-2"></div>
 					<div class="line2 bg-green-200 w-10 h-1 mb-2"></div>
 					<div class="line3 bg-green-200 w-10 h-1"></div>
