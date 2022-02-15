@@ -20,22 +20,31 @@
 			referrerpolicy="no-referrer"
 		/>
 	</head>
+
 	<body
 		class="font-mono bg-slate-200 sm:w-screen sm:h-full sm:p-0 sm-right-0 sm:left:0"
 	>
 		<header class="header w-screen h-screen">
 			<nav
-				class="navigation w-full h-36 flex justify-around items-center tracking-wider bg-green-500 text-zinc-100"
+				class="navigation w-full h-36 flex justify-around items-center tracking-wider bg-green-400 text-slate-700"
 			>
 				<div class="logo uppercase text-6xl">Teddy Yongo</div>
 
 				<ul
-					class="nav__links absolute right-0 top-36 h-4/6 bg-green-400 w-1/2 flex justify-around flex-col items-center translate-x-full text-3xl uppercase underlined transition-transform duration-75 ease-in sm:translate-x-0 sm:relative sm:top-0 sm:flex sm:flex-row sm:justify-around sm:bg-green-500 sm:items-center"
+					class="nav__links absolute right-0 top-36 h-4/6 bg-green-400 w-1/2 flex justify-around flex-col items-center translate-x-full text-3xl uppercase underlined transition-transform duration-75 ease-in sm:translate-x-0 sm:relative sm:top-0 sm:flex sm:flex-row sm:justify-around sm:bg-green-400 sm:items-center"
 				>
-					<li><a href="#header">Home</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#Projects">Projects</a></li>
-					<li><a href="#Contacts">Contacts</a></li>
+					<li>
+						<a href="#header"><i class="fas fa-home mr-3"></i>Home</a>
+					</li>
+					<li>
+						<a href="#about"><i class="fas fa-address-book mr-3"> </i>About</a>
+					</li>
+					<li>
+						<a href="#Projects"><i class="fas fa-tasks mr-3"></i> Projects</a>
+					</li>
+					<li>
+						<a href="#Contacts"> <i class="fas fa-inbox mr-3"></i> Contacts</a>
+					</li>
 				</ul>
 				<div class="burger cursor-pointer block sm:hidden">
 					<div
@@ -49,6 +58,33 @@
 					></div>
 				</div>
 			</nav>
+
+			<main
+				class="intro p-14 h-screen w-screen grid grid-cols-1 gap-14 sm:grid-cols-2"
+			>
+				<section class="intro_text text-4xl w-full grid justify-items-center">
+					<article class="intro_text top h-1/2 sm:h-1/6 self-end">
+						<h1 class="tracking-widest font-serif text-zinc-800">
+							Where Software Problems
+						</h1>
+					</article>
+					<article class="intro_text bottom h-1/2 self-start">
+						<h1 class="tracking-widest font-serif text-stone-700">
+							meet their solutions
+						</h1>
+					</article>
+				</section>
+
+				<section
+					class="intro_image flex justify-center items-start h-1/2 sm:h-full sm:items-center"
+				>
+					<img
+						src="./images/compSci.png"
+						alt="intro_image"
+						class="rounded-full"
+					/>
+				</section>
+			</main>
 		</header>
 	</body>
 </html>
