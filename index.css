@@ -80,3 +80,9 @@ body {
 		opacity: 1;
 	}
 }
+
+.about__header {
+	font-family: 'Poppins', sans-serif;
+	font-size: 5rem;
+	text-decoration: underline;
+}
