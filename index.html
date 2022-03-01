@@ -8,9 +8,12 @@
 		<title>Teddy's portfolio</title>
 
 		<link rel="stylesheet" href="index.css" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+			rel="stylesheet"
+		/>
 
 		<script defer src="https://cdn.tailwindcss.com"></script>
-		<script defer src="index.js"></script>
 
 		<link
 			rel="stylesheet"
@@ -19,6 +22,8 @@
 			crossorigin="anonymous"
 			referrerpolicy="no-referrer"
 		/>
+
+		<script defer src="index.js"></script>
 	</head>
 
 	<body
@@ -89,29 +94,40 @@
 			</main>
 		</header>
 
-		<main id="about" class="h-screen w-screen mt-8 p-12">
-			<div class="personal__info flex flex-col justify-center items-center">
-				<p class="font-bold">
-					Hello! I am Teddy, A Software Developer from the Kenya, I first learnt
-					about programming from Mount Kenya University. This piqued my
-					curiosity, developed into a hobby and then a passion and eventually
-					led to a career change as i was previously pursing the field of public
-					health in Jomo Kenyatta Univesity of Agriculture and Technology. The
-					thing I love most about coding is that there’s always something new to
-					learn so it’s impossible to get bored. There’s so many ways to be
-					creative and so many different problems to solve and I thrive on the
-					challenge. The field having the ability for a person to work remotely
-					is a plus. I am currently studying everything related to software
-					engineering and looking for frontend or backend development this year.
-				</p>
-				<div class="personal__img">
-					<img
-						src="./images/WhatsApp Image 2021-06-29 at 20.01.32.jpeg"
-						alt="Personal Image"
-						class="rounded-full w-80 object-cover"
-					/>
-				</div>
+		<section
+			class="personal__info h-screen w-screen p-4 flex flex-col justify-center items-center"
+		>
+			<h1 class="about__header mb-6">ABOUT</h1>
+			<p class="tracking-wider text-3xl text-center p-4 leading-8">
+				Hello! I am Teddy, A Software Developer from the Kenya.
+			</p>
+			<p class="tracking-wider text-3xl text-center p-4 leading-8">
+				I first learnt about programming from Mount Kenya University. This
+				piqued my curiosity, developed into a hobby and then a passion and
+				eventually led to a career change as i was previously pursing the field
+				of public health in Jomo Kenyatta Univesity of Agriculture and
+				Technology.
+			</p>
+
+			<p class="tracking-wider text-3xl text-center p-4 leading-8">
+				The thing I love most about coding is that there’s always something new
+				to learn so it’s impossible to get bored. There’s so many ways to be
+				creative and so many different problems to solve and I thrive on the
+				challenge.
+			</p>
+			<p class="tracking-wider text-3xl text-center p-4 leading-8">
+				The field having the ability for a person to work remotely is a plus. I
+				am currently studying everything related to software engineering and
+				looking for frontend or backend development this year.
+			</p>
+
+			<div class="personal__img">
+				<img
+					src="./images/WhatsApp Image 2021-06-29 at 20.01.32.jpeg"
+					alt="Personal Image"
+					class="rounded-full w-80 object-cover"
+				/>
 			</div>
-		</main>
+		</section>
 	</body>
 </html>
