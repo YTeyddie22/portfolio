@@ -1,0 +1,18 @@
+	Hello! I am Teddy, A Software Developer from Kenya.
+		
+					I first learnt about programming from Mount Kenya University. <br />
+	
+					This piqued my curiosity, developed into a hobby and then a passion
+					and eventually led to a career change as i was previously pursing the
+					field of public health in Jomo Kenyatta Univesity of Agriculture and
+					Technology.
+			
+					The thing I love most about coding is that there’s always something
+					new to learn so it’s impossible to get bored. There’s so many ways to
+					be creative and so many different problems to solve and I thrive on
+					the challenge.
+			
+					The field having the ability for a person to work remotely is a plus.
+					I am currently studying everything related to software engineering and
+					looking for frontend or backend development this year.
+		
