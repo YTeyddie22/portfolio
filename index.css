@@ -80,3 +80,19 @@ body {
 		opacity: 1;
 	}
 }
+
+.about__intro h4 {
+	font-size: 1.8rem;
+	line-height: 2.2;
+	font-weight: 600;
+	color: rgba(19, 16, 16, 0.782);
+	margin-bottom: 1.5rem;
+}
+
+.about__intro p {
+	font-size: 1.5rem;
+	line-height: 2;
+	font-weight: 500;
+	color: rgba(19, 16, 16, 0.782);
+	margin-bottom: 1.5rem;
+}
