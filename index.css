@@ -81,16 +81,18 @@ body {
 	}
 }
 
-.about__intro p {
-	font-size: 1.6rem;
-	line-height: 1.8;
-	font-weight: 300;
+.about__intro h4 {
+	font-size: 1.8rem;
+	line-height: 2.2;
+	font-weight: 600;
 	color: rgba(19, 16, 16, 0.782);
 	margin-bottom: 1.5rem;
 }
 
-@media screen and (max-width: 640px) {
-	.about__image {
-		grid-row-start: 2;
-	}
+.about__intro p {
+	font-size: 1.5rem;
+	line-height: 2;
+	font-weight: 500;
+	color: rgba(19, 16, 16, 0.782);
+	margin-bottom: 1.5rem;
 }
