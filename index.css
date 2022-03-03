@@ -80,3 +80,17 @@ body {
 		opacity: 1;
 	}
 }
+
+.about__intro p {
+	font-size: 1.6rem;
+	line-height: 1.8;
+	font-weight: 300;
+	color: rgba(19, 16, 16, 0.782);
+	margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 640px) {
+	.about__image {
+		grid-row-start: 2;
+	}
+}

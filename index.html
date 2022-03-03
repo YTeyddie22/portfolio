@@ -27,7 +27,7 @@
 	</head>
 
 	<body
-		class="font-mono bg-slate-200 sm:w-screen sm:h-full sm:p-0 sm-right-0 sm:left:0"
+		class="font-mono bg-slate-200 h-full grid grid-cols-1 gap-14 sm:w-screen sm:p-0 sm-right-0 sm:left:0"
 	>
 		<header class="header w-screen h-screen mb-14">
 			<nav
@@ -65,7 +65,7 @@
 			</nav>
 
 			<main
-				class="intro p-14 h-screen w-full grid grid-cols-1 gap-14 sm:grid-cols-2"
+				class="intro p-14 h-full w-full grid grid-cols-1 gap-14 sm:grid-cols-2"
 			>
 				<section class="intro_text text-4xl h-full w-full grid place-items-end">
 					<article class="intro_text top">
@@ -92,41 +92,53 @@
 			</main>
 		</header>
 
-		<main class="about__section h-screen w-screen p-10">
-			<section
-				class="about w-full h-full mt-5 flex flex-col-reverse justify-start items-center sm:h-full sm:flex-row"
+		<section
+			class="section__about h-full w-full mt-5 mb-5 p-10 grid grid-cols-1 gap-4 sm:grid-cols-2"
+		>
+			<div
+				class="about__image w-full h-screen flex justify-center items-center"
 			>
-				<div class="about__image sm:w-1/2">
-					<img
-						src="./images/WhatsApp Image 2021-06-29 at 20.01.32.jpeg"
-						alt="My Image"
-						class="h-1/2 w-1/2 object-cover rounded-full"
-					/>
-				</div>
+				<img
+					src="./images/download.png"
+					alt="My Image"
+					width="300px"
+					height="300px"
+					class="rounded-full"
+				/>
+			</div>
 
-				<div class="about__intro text-center mb-4 ml-5 p-7 sm:w-1/2">
-					<h1
-						class="text-5xl underline font-semibold font-serif text-slate-600 mb-7"
-					>
-						About
-					</h1>
-					<p>
-						Hello! I am Teddy, A Software Developer from Kenya. I first learnt
-						about programming from Mount Kenya University. <br />
+			<div
+				class="about__intro w-full object-contain object-center h-screen text-center ml-5 p-8 flex justify-center items-center flex-col"
+			>
+				<h1
+					class="text-5xl underline font-semibold font-serif text-slate-800 mb-7"
+				>
+					About
+				</h1>
+				<h4>Hello! I am Teddy, A Software Developer from Kenya.</h4>
+				<p>
+					I first learnt about programming from Mount Kenya University. This
+					piqued my curiosity, developed into a hobby and then a passion and
+					eventually led to a career change as i was previously pursing the
+					field of public health in Jomo Kenyatta Univesity of Agriculture and
+					Technology.
+				</p>
 
-						This piqued my curiosity, developed into a hobby and then a passion
-						and eventually led to a career change as i was previously pursing
-						the field of public health in Jomo Kenyatta Univesity of Agriculture
-						and Technology. The thing I love most about coding is that there’s
-						always something new to learn so it’s impossible to get bored.
-						There’s so many ways to be creative and so many different problems
-						to solve and I thrive on the challenge. The field having the ability
-						for a person to work remotely is a plus. I am currently studying
-						everything related to software engineering and looking for frontend
-						or backend development this year.
-					</p>
-				</div>
-			</section>
-		</main>
+				<p>
+					The thing I love most about coding is that there’s always something
+					new to learn so it’s impossible to get bored. There’s so many ways to
+					be creative and so many different problems to solve and I thrive on
+					the challenge.
+				</p>
+
+				<p>
+					The field having the ability for a person to work remotely is a plus.
+					I am currently studying everything related to software engineering and
+					looking for frontend or backend development this year.
+				</p>
+			</div>
+		</section>
+
+		<section class="projects">Hello projects</section>
 	</body>
 </html>
