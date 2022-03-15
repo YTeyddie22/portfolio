@@ -92,11 +92,11 @@ body {
 }
 
 .section__description {
-	font-size: 2.5rem;
-	font-weight: 500;
+	font-size: 2.3rem;
+	font-weight: 600;
 	text-transform: uppercase;
 	color: var(--color-primary);
-	margin-bottom: 0.5rem;
+	margin-bottom: 0.3rem;
 }
 
 .highlight {
@@ -115,4 +115,14 @@ body {
 	opacity: 0.8;
 	transform: scale(1.07, 1.05) skewX(-15deg);
 	background-image: var(--gradient-primary);
+}
+.tools .language {
+	margin: 1.2rem;
+}
+.tools .language h3 {
+	margin-top: 1.3rem;
+	font-weight: 300;
+	font-size: 1.7rem;
+	text-align: start;
+	text-transform: uppercase;
 }
