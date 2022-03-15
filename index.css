@@ -122,8 +122,13 @@ body {
 }
 .tools .language h3 {
 	margin-top: 1.3rem;
-	font-weight: 300;
+
+	font-weight: bold;
 	font-size: 1.7rem;
 	text-align: start;
 	text-transform: uppercase;
+}
+
+.language img {
+	mix-blend-mode: multiply;
 }
