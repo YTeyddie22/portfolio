@@ -97,6 +97,7 @@ body {
 	text-transform: uppercase;
 	color: var(--color-primary);
 	margin-bottom: 0.3rem;
+	text-decoration: underline;
 }
 
 .highlight {
