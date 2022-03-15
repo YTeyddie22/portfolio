@@ -115,7 +115,7 @@ body {
 	z-index: -1;
 	opacity: 0.8;
 	transform: scale(1.07, 1.05) skewX(-15deg);
-	background-image: var(--gradient-primary);
+	background-image: var(--gradient-secondary);
 }
 .tools .language {
 	margin: 1.2rem;
