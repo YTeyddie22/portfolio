@@ -86,7 +86,7 @@
 					<img
 						src="./images/compSci.png"
 						alt="intro_image"
-						class="rounded-full mix-blend-multiply"
+						class="rounded-full"
 					/>
 				</section>
 			</main>
@@ -145,59 +145,56 @@
 			</main>
 		</section>
 
-		<section class="section section_projects h-full w-screen mt-3 mb-5 p-10">
+		<section class="section section_projects h-screen w-screen mt-3 mb-5 p-10">
 			<header class="section__title">
 				<h2 class="section__description">Projects</h2>
 			</header>
-			<section class="project vanilla flex flex-col justify-items-start">
-				<header class="title">
-					<h1 class="title_header">Vanilla Projects</h1>
+			<section
+				class="project_slider max-w-7xl h-2/3 my-0 mx-auto overflow-hidden flex relative justify-center"
+			>
+				<figure
+					class="w-full h-full absolute top-0 transition-transform flex flex-col items-center justify-center"
+				>
+					<img
+						src="./images/moderna.png"
+						alt="vanilla project"
+						style="width: 300px"
+					/>
+					<figcaption class="text-center text-1xl mt-5">
+						Morderna is a simple landing page implemented with cool vanilla
+						javascript features
+					</figcaption>
+				</figure>
+				<figure
+					class="w-full h-full absolute top-0 transition-transform flex flex-col items-center justify-center"
+				>
+					<img src="" alt="vanilla project" />
+					<figcaption>These is one of the projects in vanilla</figcaption>
+				</figure>
 
-					<h2 class="project_about">
-						This are the Projects i have created using vanilla javascript
-					</h2>
-				</header>
+				<button
+					class="slider__btn slider__btn--left absolute top-1/2 border-none rounded-full h-20 w-20 text-6xl cursor-pointer z-10"
+				>
+					&larr;
+				</button>
+				<button
+					class="slider__btn slider__btn--right absolute top-1/2 border-none rounded-full h-20 w-20 text-6xl cursor-pointer z-10"
+				>
+					&rarr;
+				</button>
 
-				<div class="project_images">
-					<figure>
-						<img src="" alt="vanilla project" style="width: 100%" />
-						<figcaption>This is one of the projects in vanilla</figcaption>
-					</figure>
-					<figure>
-						<img src="" alt="vanilla project" style="width: 100%" />
-						<figcaption>These is one of the projects in vanilla</figcaption>
-					</figure>
-				</div>
-			</section>
-
-			<section class="project react flex flex-col justify-items-start">
-				<header class="title">
-					<h1 class="title_header">React Projects</h1>
-
-					<h2 class="project_about">
-						These are the Projects i have created using React javascript
-					</h2>
-				</header>
-
-				<div class="project_images">
-					<figure>
-						<img src="" alt="react project" style="width: 100%" />
-						<figcaption>This is one of the projects in react</figcaption>
-					</figure>
-					<figure>
-						<img src="" alt="react project" style="width: 100%" />
-						<figcaption>This is one of the projects in react</figcaption>
-					</figure>
-				</div>
+				<div class="dots"></div>
 			</section>
 		</section>
 
-		<section class="languages languages__section h-screen w-screen mt-3 mb-5">
+		<section class="languages languages__section h-full w-screen mt-3 mb-5">
 			<header class="section__title">
 				<h2 class="section__description">Languages and Tools</h2>
 			</header>
-			<main class="w-screen h-4/5 flex justify-center items-center">
-				<div class="tools tool__section max-w-7xl grid grid-cols-5 gap-7">
+			<main class="w-screen flex justify-center items-center mt-8">
+				<div
+					class="tools tool__section max-w-7xl grid grid-cols-3 gap-7 sm:grid-cols-3 md:grid-cols-4"
+				>
 					<div class="language">
 						<img src="./images/html.png" width="70px" alt="HTML" />
 						<h3 class="language_name">HTML</h3>
@@ -218,18 +215,12 @@
 						<img src="./images/tailwind.png" width="70px" alt="Tailwind" />
 						<h3 class="language_name">Tailwind</h3>
 					</div>
-					<div class="language">
-						<img src="./images/npm.png" width="70px" alt="NPM" />
-						<h3 class="language_name">NPM</h3>
-					</div>
+
 					<div class="language">
 						<img src="./images/mongodb.png" width="70px" alt="MongoDB" />
 						<h3 class="language_name">MongoDB</h3>
 					</div>
-					<div class="language">
-						<img src="./images/mongoose.png" width="70px" alt="Mongoose" />
-						<h3 class="language_name">Mongoose</h3>
-					</div>
+
 					<div class="language">
 						<img src="./images/express.png" width="70px" alt="Express" />
 						<h3 class="language_name">Express</h3>
@@ -243,6 +234,16 @@
 					<div class="language">
 						<img src="./images/download (3).png" width="70px" alt="NODE" />
 						<h3 class="language_name">NODE</h3>
+					</div>
+
+					<div class="language">
+						<img src="./images/mongoose.png" width="70px" alt="Mongoose" />
+						<h3 class="language_name">Mongoose</h3>
+					</div>
+
+					<div class="language">
+						<img src="./images/npm.png" width="70px" alt="NPM" />
+						<h3 class="language_name">NPM</h3>
 					</div>
 
 					<div class="language">
