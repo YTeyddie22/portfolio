@@ -1,2 +1,6 @@
 images
 tailwind.config.js
+node_modules
+dist
+.cache
+package-lock.json
