@@ -38,17 +38,20 @@
 				<ul
 					class="nav__links absolute right-0 top-36 h-4/6 bg-green-400 w-1/2 flex justify-around flex-col items-center translate-x-full text-3xl uppercase underlined transition-transform duration-75 ease-in sm:translate-x-0 sm:relative sm:top-0 sm:flex sm:flex-row sm:justify-around sm:bg-green-400 sm:items-center"
 				>
-					<li>
-						<a href="#header"><i class="fas fa-home mr-3"></i>Home</a>
+					<li class="nav__item">
+						<a class="nav__link" href="#about"
+							><i class="fas fa-address-book mr-3"> </i>About</a
+						>
 					</li>
-					<li>
-						<a href="#about"><i class="fas fa-address-book mr-3"> </i>About</a>
+					<li class="nav__item">
+						<a class="nav__link" href="#projects"
+							><i class="fas fa-tasks mr-3"></i> Projects</a
+						>
 					</li>
-					<li>
-						<a href="#Projects"><i class="fas fa-tasks mr-3"></i> Projects</a>
-					</li>
-					<li>
-						<a href="#Contacts"> <i class="fas fa-inbox mr-3"></i> Contacts</a>
+					<li class="nav__item">
+						<a class="nav__link" href="#contacts">
+							<i class="fas fa-inbox mr-3"></i> Contacts</a
+						>
 					</li>
 				</ul>
 				<div class="burger cursor-pointer block sm:hidden">
@@ -92,7 +95,7 @@
 			</main>
 		</header>
 
-		<section class="section section__about h-full w-screen mb-5 mt-2">
+		<section class="section h-full w-screen mb-5 mt-2" id="about">
 			<header class="section__title">
 				<h2 class="section__description">About</h2>
 			</header>
@@ -145,7 +148,7 @@
 			</main>
 		</section>
 
-		<section class="section section_projects h-screen w-screen mt-3 mb-5 p-10">
+		<section class="section h-screen w-screen mt-3 mb-5 p-10" id="projects">
 			<header class="section__title">
 				<h2 class="section__description">Projects</h2>
 			</header>
@@ -187,7 +190,7 @@
 			</section>
 		</section>
 
-		<section class="languages languages__section h-full w-screen mt-3 mb-5">
+		<section class="section languages__section h-full w-screen mt-3 mb-5">
 			<header class="section__title">
 				<h2 class="section__description">Languages and Tools</h2>
 			</header>
@@ -297,5 +300,54 @@
 				</div>
 			</main>
 		</section>
+
+		<footer class="section footer py-10 px-8 bg-gray-700" id="contacts">
+			<header class="section__title">
+				<h2 class="section__description">Find me on these social platforms.</h2>
+			</header>
+
+			<ul class="footer__socials list-none flex justify-center mb-5">
+				<li class="social">
+					<a
+						class="footer__link"
+						target="_blank"
+						href="https://github.com/YTeyddie22"
+						><i class="fa-brands fa-github"></i
+					></a>
+				</li>
+				<li class="social">
+					<a
+						class="footer__link"
+						target="_blank"
+						href="https://www.instagram.com/yteyddie22/"
+						><i class="fa-brands fa-instagram"></i
+					></a>
+				</li>
+				<li class="social">
+					<a
+						class="footer__link"
+						target="_blank"
+						href="https://twitter.com/YTeyddie22"
+						><i class="fa-brands fa-twitter"></i
+					></a>
+				</li>
+				<li class="social">
+					<a
+						class="footer__link"
+						target="_blank"
+						href="https://www.linkedin.com/in/teddy-yongo-4181111b1/"
+						><i class="fa-brands fa-linkedin-in"></i
+					></a>
+				</li>
+				<li class="social">
+					<a
+						class="footer__link"
+						target="_blank"
+						href="https://www.reddit.com/user/Teddev2206"
+						><i class="fa-brands fa-reddit"></i
+					></a>
+				</li>
+			</ul>
+		</footer>
 	</body>
 </html>
