@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
 	--color-primary: #5ec576;
 	--color-secondary: #ffcb03;
@@ -171,4 +175,18 @@ body {
 .dots__dot--active {
 	background-color: #888;
 	opacity: 1;
+}
+
+.footer__socials {
+	margin-right: 4rem;
+}
+
+.social {
+	margin-left: 4rem;
+}
+
+.footer__link {
+	font-size: 1.6rem;
+	color: #eee;
+	text-decoration: none;
 }

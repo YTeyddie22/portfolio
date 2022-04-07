@@ -10,7 +10,7 @@ const navSlider = function () {
 
 		navLinks.forEach((el, i) => {
 			if (el.style.animation) {
-				el.style.animation = '';
+				return;
 			} else {
 				el.style.animation = `navLinksMovement 0.5s ease forwards ${
 					i / 7 + 0
