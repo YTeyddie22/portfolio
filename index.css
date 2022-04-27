@@ -25,7 +25,6 @@
 html {
 	font-size: 62.5%;
 	box-sizing: border-box;
-	scroll-behavior: smooth;
 }
 
 body {
@@ -54,8 +53,13 @@ body {
 	overflow-x: hidden;
 }
 
-.nav-active {
+.navigation-active {
 	transform: translateX(0);
+}
+
+.navigation .sticky {
+	position: fixed;
+	background-color: rgba(163, 248, 180, 0.95);
 }
 
 .menu .line1 {
@@ -92,7 +96,7 @@ body {
 
 .section__title {
 	max-width: 80rem;
-	margin: 0 auto 4rem auto;
+	margin: 0 auto 3rem auto;
 }
 
 .section__description {
