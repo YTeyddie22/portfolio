@@ -31,12 +31,12 @@
 	>
 		<header class="header w-screen h-screen mb-8">
 			<nav
-				class="navigation w-full h-36 flex justify-around items-center tracking-wider bg-green-400 text-slate-700"
+				class="navigation w-full h-24 flex justify-around items-center tracking-wider bg-green-400 text-slate-700"
 			>
-				<div class="logo uppercase text-6xl">Teddy Yongo</div>
+				<h1 class="logo uppercase text-6xl" id="logo">Teddy Yongo</h1>
 
 				<ul
-					class="nav__links absolute right-0 top-36 h-4/6 bg-green-400 w-1/2 flex justify-around flex-col items-center translate-x-full text-3xl uppercase underlined transition-transform duration-75 ease-in sm:translate-x-0 sm:relative sm:top-0 sm:flex sm:flex-row sm:justify-around sm:bg-green-400 sm:items-center"
+					class="nav__links absolute right-0 top-0 h-40 w-1/2 flex justify-around flex-col items-center translate-x-full text-3xl uppercase underlined transition-transform duration-75 ease-in sm:translate-x-0 sm:relative sm:top-0 sm:flex sm:flex-row sm:justify-around sm:items-center"
 				>
 					<li class="nav__item">
 						<a class="nav__link" href="#about"
@@ -70,14 +70,18 @@
 			<main
 				class="intro p-14 h-full w-full grid grid-cols-1 gap-14 sm:grid-cols-2"
 			>
-				<section class="intro_text text-4xl h-full w-full grid place-items-end">
-					<article class="intro_text top">
+				<section
+					class="intro_text text-4xl h-full w-full flex flex-col items-center justify-center"
+				>
+					<article class="intro_text top mr-6">
 						<h1 class="tracking-widest font-serif text-zinc-800 text-5xl mb-4">
 							Where <span class="highlight">Software Problems</span>
 						</h1>
 					</article>
-					<article class="intro_text bottom h-full">
-						<h1 class="tracking-widest font-serif text-stone-700 text-5xl mr-6">
+					<article class="intro_text bottom">
+						<h1
+							class="tracking-widest font-serif text-stone-700 text-5xl mr-6S"
+						>
 							meet their solutions
 						</h1>
 					</article>
