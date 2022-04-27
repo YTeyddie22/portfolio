@@ -53,15 +53,16 @@ body {
 	overflow-x: hidden;
 }
 
-.navigation-active {
-	transform: translateX(0);
-}
-
 .navigation .sticky {
 	position: fixed;
 	background-color: rgba(217, 245, 223, 0.95);
 }
 
+/*
+
+.navigation-active {
+	transform: translateX(0);
+}
 .menu .line1 {
 	transform: rotate(-45deg) translate(-5px, 6px);
 }
@@ -88,6 +89,8 @@ body {
 		opacity: 1;
 	}
 }
+
+*/
 
 .section {
 	padding: 10rem 3rem 5rem 3rem;

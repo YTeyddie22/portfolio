@@ -9,7 +9,7 @@ const navSection = document.querySelector('.navigation');
 //? NAV
 
 //! Nav slide section
-const navSlider = function () {
+/* const navSlider = function () {
 	burger.addEventListener('click', () => {
 		nav.classList.toggle('navigation-active');
 
@@ -27,7 +27,7 @@ const navSlider = function () {
 	});
 };
 
-navSlider();
+navSlider(); */
 
 //! Nav selection EVENT
 
