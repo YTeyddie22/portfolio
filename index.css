@@ -101,7 +101,7 @@ body {
 
 .section__title {
 	max-width: 80rem;
-	margin: 0 auto 8rem auto;
+	margin: 0 auto 3rem auto;
 }
 
 .section__description {
@@ -202,7 +202,7 @@ body {
 }
 
 .footer__link {
-	font-size: 5rem;
+	font-size: 3rem;
 	margin-left: 5rem;
 	color: #eee;
 	text-decoration: none;
