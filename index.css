@@ -43,6 +43,13 @@ body {
 body::-webkit-scrollbar {
 	display: none; /* for Chrome, Safari, and Opera */
 }
+/*
+html{
+ 
+  max-height:100vh;
+  overflow:hidden;
+}
+*/
 
 html,
 body {
@@ -196,6 +203,9 @@ body {
 	opacity: 1;
 }
 
+.footer {
+	overflow: hidden;
+}
 .footer__socials {
 	margin-right: 4rem;
 }
