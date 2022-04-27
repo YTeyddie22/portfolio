@@ -5,6 +5,7 @@ const nav = document.querySelector('.nav__links');
 const navLinks = document.querySelectorAll('.nav__links li');
 const header = document.querySelector('.header');
 const navSection = document.querySelector('.navigation');
+const allSections = document.querySelectorAll('.section');
 
 //? NAV
 
@@ -70,3 +71,29 @@ navObserver.observe(header);
 //! ADDEVENTLISTENERS
 
 nav.addEventListener('click', navScrollBehavior);
+
+//! 4. Show Contents on scroll
+//* Observer Function
+
+const revealSections = function (entries, observer) {
+	const [entry] = entries;
+
+	if (!entry.isIntersecting) return;
+
+	entry.target.classList.remove('section__hidden');
+
+	observer.unobserve(entry.target);
+};
+
+//* Observer
+
+const sectionObserver = new IntersectionObserver(revealSections, {
+	root: null,
+	threshold: 0.2,
+});
+
+//All sections
+allSections.forEach((el) => {
+	sectionObserver.observe(el);
+	el.classList.add('section__hidden');
+});
