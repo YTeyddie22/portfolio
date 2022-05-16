@@ -42,7 +42,7 @@ const navScrollBehavior = function (e) {
 	if (navLinks) {
 		const id = e.target.getAttribute('href');
 		console.log(id);
-		document.querySelector(id).scrollIntoView({ behavior: 'smooth' });
+		document.querySelector(id).scrollIntoView({behavior: 'smooth'});
 	}
 };
 
@@ -97,3 +97,7 @@ allSections.forEach((el) => {
 	sectionObserver.observe(el);
 	el.classList.add('section__hidden');
 });
+
+//* Slider functionality
+
+const slider = () => {};
