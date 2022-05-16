@@ -162,6 +162,11 @@ body {
 .language img {
 	mix-blend-mode: multiply;
 }
+
+.slide {
+	/*TODO Slider Animation*/
+	transition: transform 1.6s;
+}
 .slider__btn--left {
 	left: 6%;
 	transform: translate(-50%, -50%);
