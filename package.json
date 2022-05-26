@@ -4,8 +4,8 @@
 	"description": "My portfolio",
 	"main": "index.html",
 	"scripts": {
-		"start": "npx tailwindcss -i ./src/index.css -o ./dist/output.css --watch",
-		"build": "npx tailwindcss -i ./src/index.css -o ./dist/output.css --minify"
+		"start": "npx tailwindcss -i ./src/index.css -o ./public/output.css --watch",
+		"build": "npx tailwindcss -i ./src/index.css -o ./public/output.css --minify"
 	},
 	"author": "Teddy Yongo",
 	"license": "ISC",
